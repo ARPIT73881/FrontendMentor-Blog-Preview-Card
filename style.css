@@ -1,0 +1,101 @@
+/* importing font style */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* default styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sytling body */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+/* main container or main block */
+main{
+    width: 257px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* image inside the main block */
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* subheading h4 in main container */
+main h4{
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 0%);
+    border-radius: 6px;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* date paragraph */
+.date{
+    margin-top: -4px;
+    font-size: 10px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 500;
+}
+
+
+/* heading inside the main block */
+h1{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    opacity: 0.8;
+    font-size: 17px;
+}
+
+/* second paragraph in main container */
+.second-para{
+    font-size: 10.5px;
+    color: hsl(0, 0%, 50%);
+    line-height: 14px;
+    font-weight: 500;
+    /* margin-bottom: 16px; */
+}
+
+/* section part or the lower part with image and name */
+section{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: -6px;
+}
+
+/* section image  */
+section img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+/* section heading */
+section h6{
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1px;
+}
+
